@@ -3,9 +3,46 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 80px;
   pointer-events: none;
 }
+
+.App-body {
+  display: flex;
+}
+
+.customer-list {
+  width: 30%;
+}
+
+.name {
+  background-color: rgb(117, 217, 235);
+  color: rgb(7, 68, 68);
+ 
+}
+
+.btn {
+  border: none;
+  color: white;
+  background-color: rgb(117, 217, 235);
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.card {
+  border: 1px solid rgb(117, 217, 235);
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.card p {
+  padding: 10px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -15,7 +52,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
